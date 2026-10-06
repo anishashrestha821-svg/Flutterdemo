@@ -1,18 +1,17 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-class demopage extends StatefulWidget{
+class demopage extends StatefulWidget {
+  const demopage({super.key});
+
   @override
-  State<StatefulWidget> createState() {
-    return demopageState();
-  }
+  State<demopage> createState() => demopageState();
 }
-class demopageState extends State<demopage>{
+
+class demopageState extends State<demopage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-     child: Text("Hello to flutter"),
+      child: const Text("Hello World !"),
     );
   }
-
-
 }
