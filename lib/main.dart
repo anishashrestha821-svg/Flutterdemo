@@ -1,3 +1,4 @@
+import 'package:democlassseasonsir/views/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:democlassseasonsir/demo.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: demopage(),
+      home: dashboard(),
     );
   }
 }
