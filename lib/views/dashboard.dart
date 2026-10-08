@@ -16,6 +16,7 @@ class _dashboardState extends State<dashboard> {
       body: Container(
         child: Column(
           children: [
+            //horizontal list data
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -179,7 +180,659 @@ class _dashboardState extends State<dashboard> {
 
                 ],
               ),
+            ),
+
+            //vertical list data
+            Container(
+              height: size.height/1.65,
+              child: SingleChildScrollView(
+
+                child: Column(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                          color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height:150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius:  BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                      fit: BoxFit.cover,
+                                      "https://imgs.search.brave.com/SeNX92bOYOGbYcL6LCe8HwmASy--6SmjMIP2aCiEMOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL3RodW1iLzYy/NzU2OC5qcGc"
+
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                  height: 150,
+                                  width: 150,
+                                  child: Center(
+                                    child: Icon(Icons.play_circle_fill_rounded,size: 50,
+                                      color: Colors.white,),
+                                  )
+                              )
+                            ],
+                          ) ,
+
+
+                          Column(
+
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2
+                                ,child: Text("Dashain is near. Happy Dashain Guys! Bijaya Dashami ko dherai dherai suvakamana xa hai sathi haru",
+                                maxLines: 2,overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+
+                                      padding: EdgeInsets.only(left: 15,
+                                          right: 15, top: 10, bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red,
+                                        borderRadius: BorderRadius.circular(20),),
+                                      child: ClipRect(
+                                        child: Text("PCPS.com", style: TextStyle(color: Colors.white),
+                                          maxLines: 2,overflow: TextOverflow.ellipsis,),
+                                      ),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),)
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             )
+
             ],
         ),
       ),
